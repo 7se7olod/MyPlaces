@@ -1,17 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "Coffe Black.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Coffe Black-1.jpg",
+      "filename" : "photo@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Coffe Black-2.jpg",
+      "filename" : "photo@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

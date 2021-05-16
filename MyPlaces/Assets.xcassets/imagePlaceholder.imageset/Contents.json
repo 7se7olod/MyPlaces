@@ -1,17 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "Ronni Burger.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Ronni Burger-1.jpg",
+      "filename" : "imagePlaceholder@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Ronni Burger-2.jpg",
+      "filename" : "imagePlaceholder@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,17 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "Pinta.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Pinta-1.png",
+      "filename" : "camera@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Pinta-2.png",
+      "filename" : "camera@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
