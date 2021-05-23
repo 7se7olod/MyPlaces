@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D0DB0DE264AB18C00269365 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DB0DD264AB18C00269365 /* NewPlaceViewController.swift */; };
+		2D6401DD2656589100C59E11 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6401DC2656589100C59E11 /* MapViewController.swift */; };
+		2D9E520D2653E4970059A504 /* RatingControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9E520C2653E4970059A504 /* RatingControll.swift */; };
 		2DD47338264C64D8005CC3FE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD47337264C64D8005CC3FE /* StorageManager.swift */; };
 		2DDC04982643FC3200D53C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC04972643FC3200D53C9F /* AppDelegate.swift */; };
 		2DDC049A2643FC3200D53C9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC04992643FC3200D53C9F /* SceneDelegate.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		2D0DB0DD264AB18C00269365 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
+		2D6401DC2656589100C59E11 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2D9E520C2653E4970059A504 /* RatingControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControll.swift; sourceTree = "<group>"; };
 		2DD47337264C64D8005CC3FE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		2DDC04942643FC3200D53C9F /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDC04972643FC3200D53C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,10 +78,12 @@
 				2DDC04972643FC3200D53C9F /* AppDelegate.swift */,
 				2DDC04992643FC3200D53C9F /* SceneDelegate.swift */,
 				2DDC04AD2644039B00D53C9F /* MainViewController.swift */,
+				2D9E520C2653E4970059A504 /* RatingControll.swift */,
 				2DE97D1D2645731100891E8A /* PlaceModel.swift */,
 				2DD47337264C64D8005CC3FE /* StorageManager.swift */,
 				2DE97D1A264565A100891E8A /* CustomTableViewCell.swift */,
 				2D0DB0DD264AB18C00269365 /* NewPlaceViewController.swift */,
+				2D6401DC2656589100C59E11 /* MapViewController.swift */,
 				2DDC049D2643FC3200D53C9F /* Main.storyboard */,
 				2DDC04A02643FC3500D53C9F /* Assets.xcassets */,
 				2DDC04A22643FC3500D53C9F /* LaunchScreen.storyboard */,
@@ -215,7 +221,9 @@
 			files = (
 				2DDC04AE2644039B00D53C9F /* MainViewController.swift in Sources */,
 				2D0DB0DE264AB18C00269365 /* NewPlaceViewController.swift in Sources */,
+				2D9E520D2653E4970059A504 /* RatingControll.swift in Sources */,
 				2DDC04982643FC3200D53C9F /* AppDelegate.swift in Sources */,
+				2D6401DD2656589100C59E11 /* MapViewController.swift in Sources */,
 				2DD47338264C64D8005CC3FE /* StorageManager.swift in Sources */,
 				2DE97D1E2645731100891E8A /* PlaceModel.swift in Sources */,
 				2DE97D1B264565A100891E8A /* CustomTableViewCell.swift in Sources */,
@@ -370,6 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 974DWU28RL;
 				INFOPLIST_FILE = MyPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,6 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 974DWU28RL;
 				INFOPLIST_FILE = MyPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
